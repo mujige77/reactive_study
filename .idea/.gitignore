@@ -1,0 +1,8 @@
+
+/workspace.xml
+*.iml
+/dictionaries/
+/.name
+/misc.xml
+/modules.xml
+/vcs.xml
