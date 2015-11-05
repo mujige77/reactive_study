@@ -1,7 +1,6 @@
 'use strict'
 
 var Rx = require("rx")
-var mocha = require("mocha")
 
 class TestClass {
     constructor(val) {
