@@ -8,6 +8,13 @@ class TestClass {
     }
 }
 
+class Test2 {
+    /* @flow */
+    constructor() {
+
+    }
+}
+
 describe("rx observalble", function() {
     it('amb', function(done) {
         let source = Rx.Observable.amb(
