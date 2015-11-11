@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "scripts": {
+    "pretest": "tsc test/test_typescript.ts --module commonjs",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "tslint": "^2.5.1",
+    "typescript": "^1.6.2"
+  }
+}

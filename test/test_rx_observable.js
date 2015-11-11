@@ -111,10 +111,10 @@ describe("rx observalble", function() {
     })
     
     it("timeInterval", function(done) {
-        console.log("test") 
+        console.log("test")
         let source = Rx.Observable.timer(0, 10).timeInterval().map(
             function(x) {
-                return x.value + ':' + x.interval;
+                return x.value + ':' + x.interval
             }).take(5)
             
         var sub = source.subscribe(
