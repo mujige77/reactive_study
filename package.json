@@ -2,10 +2,12 @@
   "name": "application-name",
   "version": "0.0.1",
   "scripts": {
-    "pretest": "tsc test/test_typescript.ts --module commonjs",
+    "pretest": "tsc test/*.ts --module commonjs",
     "test": "mocha"
   },
   "dependencies": {
+    "es6-module-loader": "^0.17.8",
+    "rx": "^4.0.6",
     "tslint": "^2.5.1",
     "typescript": "^1.6.2"
   }
